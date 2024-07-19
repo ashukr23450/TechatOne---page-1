@@ -1,0 +1,300 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f7f9;
+}
+
+.container{
+    height: 120vh;
+    background-color: #daf3ff;
+    margin: 0 100px 0;
+    position: relative;
+    top: 10px;    
+}
+
+.product-image{
+    height: 615px;
+    width: 460px;
+    background-color:white;
+}
+
+#advtm{
+    height: 120px;
+    width: 460px;
+    position: relative;
+    top: 125px;
+}
+.product-image img{
+    height: 550px;
+    width: 450px;
+}
+
+
+
+.thumbnails{
+    height: 95px;
+    width: 340px;
+    display: flex;
+    background-color:white;
+    position: absolute;
+    top:520px ;
+    left: 50px;
+}
+
+.thumbnails img{
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    border: 2px solid #eec5ee;
+    border-radius: 5px;
+    transition: 0.15s;
+}
+
+.thumbnails img:hover{
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    border: 2px solid #00718A;
+    border-radius: 5px;
+}
+
+.product-details{
+    height: 200px;
+    position: absolute;
+    left:500px ;
+    top: 10px;
+}
+.rating-order{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: -30px;
+}
+
+.rating{
+    position: relative;
+    left: 170px;
+    top:-10px;
+    color: #636161;
+}
+
+.Details{
+    line-height: 25px;
+    color: #636161;
+}
+
+#blank{
+    height: 50px;
+    width: 1087px;
+    background-color: white;
+    position: absolute;
+    top: 220px;
+    left: 450px;
+}
+
+.store-list{
+    height: 700px;
+    width: 100vh;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+
+.price-container{
+    height: 90px;
+    width: 100vh;
+}
+
+#price{
+    color: #005EBD;
+    font-size: 40px;
+}
+
+#price +p{
+    color: #005EBD;
+    position: absolute;
+    top: 75px;
+    font-size: 15px;
+}
+
+.fa-solid{
+    font-size: 12px;
+}
+
+.buy-btn{
+    height: 45px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    background-color: #FB641B;
+    position: absolute;
+    left: 99vh;
+    top: 55px; ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn img{
+    height: 22px;
+    position: relative;
+    top: 5px;
+}
+
+.shop_availability{
+    height: 500px;
+    width: 100vh;
+}
+
+.scrlbar{
+    height: 260px;  
+    width:119vh ;
+    overflow: auto;
+}
+
+.scrlbar::-webkit-scrollbar{
+    width: 10px;
+}
+
+.scrlbar::-webkit-scrollbar-track{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.scrlbar::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.store{
+    height: 50px;
+    width: 875px;
+    background:linear-gradient(to left, #7BDFD2 , #437972);
+    margin: 10px;
+    border-radius:5px;
+}
+.store span img{
+    height: 25px;
+    position: relative;
+    top: 15px;
+    left:-55px ;
+}
+
+#cromalogo{
+    position: relative;
+    left: 10px;
+}
+
+#amazonlogo{
+    position: relative;
+    left: -5px;
+}
+.store-price{
+    font-weight: 550;
+    font-size: 18px;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+.cmp_name_flrt{
+    font-size:18px;
+    font-weight: 550;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+
+.cmp_name_amz{
+    font-size:18px;
+    font-weight: 550;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+
+.cmp_name_crm{
+    font-size:18px;
+    font-weight: 550;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+
+.cmp_name_flt{
+    font-size:18px;
+    font-weight: 550;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+.store button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;    
+    background-color: #FB641B;
+    position: absolute;
+    left: 100vh;
+}
+
+#flipkart_btn{
+position: absolute;
+top: 147px;
+}
+
+#amazon_btn{
+    position: absolute;
+    top: 207px;
+}
+
+#croma_btn{
+    position: absolute;
+    top: 267px;
+}
+#flipkart_btn2{
+    position: absolute;
+    top: 327px;
+}
+
+.variants{
+    height: 100px;
+    width: 875px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop_availability h3{
+    position: relative;
+    top: 17px;
+    left: 10px;
+    font-weight: 550px;
+
+}
+.variant{
+    height: 55px;
+    width: 200px;
+    border: 2px solid rgb(187, 185, 185);
+    margin: 10px;
+    border-radius: 5px;
+    font-size:25px;
+    padding: 5px 10px 5px;
+    line-height: 30px;
+    transition: 0.20s;
+}
+
+.storage{
+    color:#00718A;
+}
+
+.variant:hover{
+    height: 55px;
+    width: 200px;
+    border: 2px solid #00718A;
+    border-radius: 5px; 
+    box-shadow: 0 0 5px;
+    font-weight: bold;
+}
